@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');   
+
+body {
+    background: white;
+    font-family: Nunito;
+}
+@media screen and (max-width: 1020px) { /* Large Desktop */ }
+@media screen and (max-width: 780px) { /* tablet */ }
+@media screen and (max-width: 480px) { /* mobile */ }
+
+.productsContainer {
+    display: flex;
+
+}
+.productBox {
+    border: 1px solid black;
+    padding: 10px;
+    /* width: 200px;
+    height: auto; */
+    flex-basis: 70px;
+}
+
+.imgWrap
+{
+    width: 100px;
+    height: 100px;
+}
